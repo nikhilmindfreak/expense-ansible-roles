@@ -1,9 +1,9 @@
 # here we keep all configure servers file together
-- name: "configure {{ component }} Server"
-  hosts: "{{ component }}"
-  become: yes
-  roles:
-  - "{{ component }}"
+#- name: "configure {{ component }} Server"
+ ## hosts: "{{ component }}"
+  #become: yes
+  #roles:
+  #- "{{ component }}"
 
   # now we give componet in cli 
   # component=bd/backed/frontend
