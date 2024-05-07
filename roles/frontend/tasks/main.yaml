@@ -32,7 +32,7 @@
   notify:
   - restart nginx
 
-# here we use notify to restart the server through handlers
+# here we use notify to restart the server through han
 
 #- name: restart nginx
 # ansible.builtin.service:
