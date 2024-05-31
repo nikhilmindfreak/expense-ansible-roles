@@ -18,10 +18,6 @@
     loop: "{{ instances }}"
     register: ec2_instances_info   # register keyword is used to capture the output of a task and store it in a variable. This allows you to access and manipulate the output of a task later in the playbook or use it for conditionals, error handling, or debugging purposes.
 
-  - name: Debug private_ip_address variable
-    debug:
-      var: private_ip_address
-
   - name: print output
     ansible.builtin.debug:    
       msg: "Output: {{ ec2_instances_info }}"  # here we take value from the output to create route 53 parameneters
