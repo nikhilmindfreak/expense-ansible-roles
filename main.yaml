@@ -5,6 +5,8 @@
   roles:
   - "{{ component }}"
 
-  # now we give componet in cli 
+  # now we give component in cli 
   # component=bd/backed/frontend
   # ansible-playbook "filename" -e component=bd/backed/frontend
+
+
